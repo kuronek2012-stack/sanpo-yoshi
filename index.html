@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新・三方良し</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f5f0e8;
+      color: #2c1a0e;
+      font-family: 'Noto Serif JP', serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background-image:
+        radial-gradient(circle at 10% 20%, rgba(180, 120, 60, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 90% 80%, rgba(180, 120, 60, 0.05) 0%, transparent 50%);
+    }
+
+    .title-block {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .subtitle {
+      font-size: 0.85rem;
+      letter-spacing: 0.4em;
+      color: #8b6340;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: #1a0e05;
+      position: relative;
+      display: inline-block;
+    }
+
+    h1::after {
+      content: '';
+      display: block;
+      width: 60%;
+      height: 2px;
+      background: #8b6340;
+      margin: 12px auto 0;
+      opacity: 0.6;
+    }
+
+    .principles {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      width: 100%;
+      max-width: 640px;
+    }
+
+    .principle {
+      display: flex;
+      align-items: flex-start;
+      gap: 28px;
+      padding: 36px 0;
+      border-bottom: 1px solid rgba(139, 99, 64, 0.2);
+      position: relative;
+    }
+
+    .principle:first-child {
+      border-top: 1px solid rgba(139, 99, 64, 0.2);
+    }
+
+    .number {
+      font-size: 3.5rem;
+      font-weight: 300;
+      color: #c9a87c;
+      line-height: 1;
+      min-width: 50px;
+      letter-spacing: -0.02em;
+    }
+
+    .text-block {
+      padding-top: 4px;
+    }
+
+    .label {
+      font-size: 0.75rem;
+      letter-spacing: 0.35em;
+      color: #8b6340;
+      margin-bottom: 10px;
+    }
+
+    .statement {
+      font-size: 1.45rem;
+      font-weight: 400;
+      line-height: 1.7;
+      letter-spacing: 0.05em;
+      color: #1a0e05;
+    }
+
+    .brush-mark {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2.2rem;
+      opacity: 0.12;
+      color: #2c1a0e;
+    }
+
+    .footer-block {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .seal {
+      display: inline-block;
+      border: 2px solid #8b6340;
+      padding: 10px 20px;
+      font-size: 0.8rem;
+      letter-spacing: 0.4em;
+      color: #8b6340;
+    }
+
+    .contact {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      color: #8b6340;
+    }
+
+    .contact a {
+      color: #8b6340;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title-block">
+    <p class="subtitle">現代に生きる</p>
+    <h1>新・三方良し</h1>
+  </div>
+
+  <div class="principles">
+
+    <div class="principle">
+      <div class="number">一</div>
+      <div class="text-block">
+        <p class="label">おや　について</p>
+        <p class="statement">親は大事にしなくていい</p>
+      </div>
+      <div class="brush-mark">親</div>
+    </div>
+
+    <div class="principle">
+      <div class="number">二</div>
+      <div class="text-block">
+        <p class="label">こども　について</p>
+        <p class="statement">子供は自由に生きればいい</p>
+      </div>
+      <div class="brush-mark">子</div>
+    </div>
+
+    <div class="principle">
+      <div class="number">三</div>
+      <div class="text-block">
+        <p class="label">しゃかい　について</p>
+        <p class="statement">社会は公平であればいい</p>
+      </div>
+      <div class="brush-mark">社</div>
+    </div>
+
+  </div>
+
+  <div class="footer-block">
+    <div class="seal">三方良し</div>
+    <p class="contact">連絡先　<a href="mailto:kuroneko1976@icloud.com">kuroneko1976@icloud.com</a></p>
+  </div>
+
+</body>
+</html>
